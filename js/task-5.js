@@ -14,16 +14,20 @@ const checkForSpam = function(message) {
  */
 let message;
 const checkForSpam = function(message) {
-    for(let word of message) {
-     const messageSplit = message.split(' ');  
-    const inputmessage = messageSplit.toLowerCase();
-    if(inputmessage.includes(spam, sale)) {
-    console.log('true');
-    return true
-    };
-  };
-
+  const messageInput = message.toLowerCase();  
+  console.log (messageInput);
+  const messageSplit = messageInput.split(' ');
+  console.log (messageSplit);
+    for(let word of message) { 
+    console.log(messageSplit.includes('sale') || messageSplit.includes('[spam]')) 
+      
+      return;
+    
+  }
 }
+  
+
+
 
 
 
