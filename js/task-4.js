@@ -15,12 +15,9 @@ const formatString = function(string) {
     const stringSplit = string.split('');
     for(let i = 0; i <stringSplit.length; i++ ) {
         if(i > 40){
-             let outputString = stringSplit.splice(39,i - 40
-                );
-            return string + "..";  
-        }
-        
-        
+          let outputString = stringSplit.splice(39, i - 40);
+          return string + "..";
+        }       
     }
             return string;
 

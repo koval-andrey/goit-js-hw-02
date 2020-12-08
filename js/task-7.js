@@ -51,12 +51,9 @@ function addLogin(allLogins, login) {
       console.log("Такой логин уже используется!");
       return "Такой логин уже используется!";
   } else {
-      logins.push(login);
-      console.log("Логин успешно добавлен!");
-
-      
-      return "Логин успешно добавлен!";
-
+    logins.push(login);
+    console.log("Логин успешно добавлен!");
+    return "Логин успешно добавлен!";
   }
 }
 
