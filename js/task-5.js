@@ -12,30 +12,19 @@ const checkForSpam = function(message) {
 /*
  * Вызовы функции для проверки работоспособности твоей реализации.
  */
-let message;
+
 const checkForSpam = function(message) {
   const messageInput = message.toLowerCase();  
-  console.log (messageInput);
   const messageSplit = messageInput.split(' ');
-  console.log (messageSplit);
     for(let word of message) { 
-    console.log(messageSplit.includes('sale') || messageSplit.includes('[spam]')) 
-      
-      return;
-    
+    console.log(messageSplit.includes('sale') || messageSplit.includes('[spam]'));    
   }
 }
-  
+ 
+console.log(checkForSpam('Latest technology news')); 
 
+console.log(checkForSpam('JavaScript weekly newsletter')); 
 
+console.log(checkForSpam('Get best sale offers now!')); 
 
-
-
-
-console.log(checkForSpam('Latest technology news')); // false
-
-console.log(checkForSpam('JavaScript weekly newsletter')); // false
-
-console.log(checkForSpam('Get best sale offers now!')); // true
-
-console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
+console.log(checkForSpam('[SPAM] How to earn fast money?'));

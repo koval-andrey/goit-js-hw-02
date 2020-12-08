@@ -53,9 +53,13 @@ function addLogin(allLogins, login) {
   } else {
       logins.push(login);
       console.log("Логин успешно добавлен!");
+
+      
       return "Логин успешно добавлен!";
+
   }
 }
+
  
 console.log(addLogin(logins, 'Ajax')); // 'Логин успешно добавлен!'
 console.log(addLogin(logins, 'robotGoogles')); // 'Такой логин уже используется!'

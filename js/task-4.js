@@ -10,10 +10,9 @@ const formatString = function(string) {
 /*
  * Вызовы функции для проверки работоспособности твоей реализации.
  */
-let string;
+
 const formatString = function(string) {
     const stringSplit = string.split('');
-    console.log(stringSplit);
     for(let i = 0; i <stringSplit.length; i++ ) {
         if(i > 40){
              let outputString = stringSplit.splice(39,i - 40
@@ -23,7 +22,7 @@ const formatString = function(string) {
         
         
     }
-    return string;
+            return string;
 
   };
 console.log(formatString('Curabitur ligula sapien, tincidunt non.'));

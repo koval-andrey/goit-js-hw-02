@@ -13,12 +13,11 @@
  */
 const items = ['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong'];
 const logItems = function(array) {
-    for(let i=0; i<array.length; i++) {
-        const message = ` ${i+1} - ${array[i]}`;
-        console.log(message);
-    }
-    
-  };
+  for (let i = 0; i < array.length; i++) {
+    const message = ` ${i + 1} - ${array[i]}`;
+    console.log(message);
+  }
+};
   
 
 logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);

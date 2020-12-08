@@ -11,8 +11,7 @@ const calculateEngravingPrice = function(message, pricePerWord) {
 /*
  * Вызовы функции для проверки работоспособности твоей реализации.
  */
-let pricePerWord = 10;
-let messanges = 'Proin sociis natoque et magnis parturient montes mus';
+
 
 const calculateEngravingPrice = function(messages, pricePerWord) {
         
@@ -24,11 +23,11 @@ const calculateEngravingPrice = function(messages, pricePerWord) {
   }
 };
 console.log(
-    calculateEngravingPrice(
-      'Proin sociis natoque et magnis parturient montes mus',
-      10,
-    ),
-  );
+  calculateEngravingPrice(
+    "Proin sociis natoque et magnis parturient montes mus",
+    10
+  )
+);
 
   console.log(
     calculateEngravingPrice(
